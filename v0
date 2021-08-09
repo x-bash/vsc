@@ -1,0 +1,36 @@
+vscode(){
+    :
+}
+
+vscode_editor(){
+    :
+}
+
+vscode_editor(){
+    :
+}
+
+vscode_autosave(){
+    param <<A
+option:
+    --mode       "mode"     =       "disable"       "onWindowsChange"       "onFocusChange"
+    --delay      ""         =int
+A
+}
+
+vscode_format(){
+    param <<A
+subcommand:
+    onsave      ""
+    onpaste     ""
+A
+    :
+}
+
+vscode_format_onsave(){
+    param <<A
+option:
+    #n      "multiple lanaguage"       =    typescript  markdown    java
+A
+    :
+}
